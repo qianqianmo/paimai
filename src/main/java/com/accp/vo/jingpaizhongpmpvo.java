@@ -10,6 +10,7 @@ public class jingpaizhongpmpvo {
 	private Date pmpjssj;
 	private String pmpqpj;
 	private List<listvo> list;
+	
 	public Integer getPmpid() {
 		return pmpid;
 	}

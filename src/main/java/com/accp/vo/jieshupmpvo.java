@@ -9,6 +9,7 @@ public class jieshupmpvo {
 	private String pmpqpj;
 	private int jpjg;
 	private String username;
+	
 	public String getPmpname() {
 		return pmpname;
 	}

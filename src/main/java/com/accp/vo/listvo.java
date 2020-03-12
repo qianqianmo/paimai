@@ -3,6 +3,7 @@ package com.accp.vo;
 public class listvo {
 	private String username;
 	private Integer jpjg;
+	
 	public String getUsername() {
 		return username;
 	}
