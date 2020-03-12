@@ -165,7 +165,7 @@ public class PaimaiAction {
 					message.put("msg", "拍卖品添加失败");
 				}
 			}else {
-				int count=pmpbiz.xiugaipmp(pmp);
+				int count=pmpbiz.Updatepmp(pmp);
 				if(count>0) {
 					message.put("code", "200");
 					message.put("msg", "拍卖品修改成功");
@@ -190,7 +190,7 @@ public class PaimaiAction {
 				message.put("code", "100");
 				message.put("msg", "该拍卖品正在竞拍不可操作");
 			}else{
-				pmpbiz.shangchu(pmpid);
+				pmpbiz.Delepmp(pmpid);
 				message.put("code", "200");
 				message.put("msg", "溜了溜了");
 			}

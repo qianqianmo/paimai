@@ -12,6 +12,7 @@
     <result column="pmptpkzm" property="pmptpkzm" jdbcType="VARCHAR" />
     <result column="pmpms" property="pmpms" jdbcType="VARCHAR" />
   </resultMap>
+  
   <sql id="Base_Column_List" >
     pmpid, pmpname, pmpqpj, pmpdj, pmpkssj, pmpjssj, pmptplj, pmptpkzm, pmpms
   </sql>

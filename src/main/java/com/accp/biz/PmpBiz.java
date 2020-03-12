@@ -21,6 +21,7 @@ import com.github.pagehelper.PageInfo;
 public class PmpBiz {
 	@Autowired
 	private PmpMapper pmpdao;
+	//分页查询
 	public PageInfo<Pmp> shouye(int n,int s, String pmpname, String pmpms,String pmpkssj, String pmpjssj,String pmpqpj) {
 		QueryWrapper<Pmp> qw=Wrappers.query();
 		if(!pmpname.equals("null")) {qw.like("pmpname", pmpname);};
@@ -34,13 +35,16 @@ public class PmpBiz {
 	public Pmp jingpai(int id) {
 		return pmpdao.selectById(id);
 	}
+	//添加
 	public int addpmp(Pmp pmp) {
 		return pmpdao.insert(pmp);
 	}
-	public int shangchu(int pmpid) {
+	//删除
+	public int Delepmp(int pmpid) {
 		return pmpdao.deleteById(pmpid);
 	}
-	public int xiugaipmp(Pmp pmp) {
+	//修改
+	public int Updatepmp(Pmp pmp) {
 		return pmpdao.updateById(pmp);
 	}
 }

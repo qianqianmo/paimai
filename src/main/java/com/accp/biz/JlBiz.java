@@ -33,9 +33,13 @@ public class JlBiz {
 		jl.setJpsj(new Date());
 		return jldao.insert(jl);
 	}
+	
+	
 	public List<jieshupmpvo> jieshupmp() {
 		return jldao.jieshupmp();
 	}
+	
+	
 	public List<jingpaizhongpmpvo> jingpaizhongpmp() {
 		return jldao.jingpaizhongpmp();
 	}

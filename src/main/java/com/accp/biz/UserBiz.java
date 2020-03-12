@@ -23,6 +23,8 @@ public class UserBiz {
 		User user=userdao.selectOne(qw);
 		return user;
 	}
+	
+	
 	public int zhuce(User u) {
 		return userdao.insert(u);
 	}

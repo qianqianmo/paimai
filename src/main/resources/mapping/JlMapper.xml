@@ -13,7 +13,6 @@
 	</select>
 	
 	
-	
 	<resultMap id="BaseResultMap" type="com.accp.vo.jingpaizhongpmpvo" >
 	    <!-- <id column="pmpid" property="pmpid" jdbcType="INTEGER" />
 	    <result column="pmpname" property="pmpname" jdbcType="VARCHAR" />

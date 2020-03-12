@@ -13,6 +13,7 @@
     <result column="userwt" property="userwt" jdbcType="VARCHAR" />
     <result column="userda" property="userda" jdbcType="VARCHAR" />
   </resultMap>
+  
   <sql id="Base_Column_List" >
     userid, username, usermm, usersfz, userdh, userdz, useryzbh, usersf, userwt, userda
   </sql>
